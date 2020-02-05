@@ -1,0 +1,274 @@
+@charset "UTF-8";
+[class*=" icon-"]:before,
+[class^=icon-]:before,
+[data-icon]:before {
+    font-family: telenor!important;
+    font-style: normal!important;
+    font-weight: 400!important;
+    font-variant: normal!important;
+    text-transform: none!important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@font-face {
+    font-family: telenor;
+    src: url(../fonts/icons/telenor.eot);
+    src: url(../fonts/icons/telenor.eot?#iefix) format("embedded-opentype"), url(../fonts/icons/telenor.woff) format("woff"), url(../fonts/icons/telenor.ttf) format("truetype"), url(../fonts/icons/telenor.svg#telenor) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[data-icon]:before {
+    content: attr(data-icon)
+}
+
+.icon-location:before {
+    content: "\64"
+}
+
+.icon-archive:before {
+    content: "\62"
+}
+
+.icon-sim-card:before {
+    content: "\65"
+}
+
+.icon-zoom:before {
+    content: "\6a"
+}
+
+.icon-tablet:before {
+    content: "\6d"
+}
+
+.icon-watch:before {
+    content: "\6b"
+}
+
+.icon-banner:before {
+    content: "\6e"
+}
+
+.icon-help:before {
+    content: "\6c"
+}
+
+.icon-setting:before {
+    content: "\70"
+}
+
+.icon-camera:before {
+    content: "\72"
+}
+
+.icon-battery:before {
+    content: "\73"
+}
+
+.icon-tag:before {
+    content: "\75"
+}
+
+.icon-down:before {
+    content: "\76"
+}
+
+.icon-down-arrow:before {
+    content: "\77"
+}
+
+.icon-false:before {
+    content: "\78"
+}
+
+.icon-left:before {
+    content: "\79"
+}
+
+.icon-left-arrow:before {
+    content: "\7a"
+}
+
+.icon-right:before {
+    content: "\41"
+}
+
+.icon-right-arrow:before {
+    content: "\42"
+}
+
+.icon-true:before {
+    content: "\43"
+}
+
+.icon-up:before {
+    content: "\44"
+}
+
+.icon-up-arrow:before {
+    content: "\45"
+}
+
+.icon-cart:before {
+    content: "\67"
+}
+
+.icon-paper:before {
+    content: "\68"
+}
+
+.icon-envelope:before {
+    content: "\6f"
+}
+
+.icon-support:before {
+    content: "\71"
+}
+
+.icon-music:before {
+    content: "\74"
+}
+
+.icon-gift:before {
+    content: "\66"
+}
+
+.icon-globe:before {
+    content: "\46"
+}
+
+.icon-minus:before {
+    content: "\47"
+}
+
+.icon-plus:before {
+    content: "\48"
+}
+
+.icon-twitter:before {
+    content: "\4a"
+}
+
+.icon-instagram:before {
+    content: "\4b"
+}
+
+.icon-avator:before {
+    content: "\63"
+}
+
+.icon-facebook:before {
+    content: "\49"
+}
+
+.icon-mobile:before {
+    content: "\69"
+}
+
+.icon-voice:before {
+    content: "\4c"
+}
+
+.icon-roaming:before {
+    content: "\4d"
+}
+
+.icon-broadband:before {
+    content: "\4e"
+}
+
+.icon-logo:before {
+    content: "\61"
+}
+
+.icon-mobile-data:before {
+    content: "\4f"
+}
+
+.icon-speed:before {
+    content: "\51"
+}
+
+.icon-voice-1:before {
+    content: "\50"
+}
+
+.icon-usd:before {
+    content: "\52"
+}
+
+.icon-balance:before {
+    content: "\53"
+}
+
+.icon-facebook-1:before {
+    content: "\54"
+}
+
+.icon-mobile-data-1:before {
+    content: "\55"
+}
+
+.icon-phone:before {
+    content: "\56"
+}
+
+.icon-sms:before {
+    content: "\57"
+}
+
+.icon-balance-1:before {
+    content: "\58"
+}
+
+.icon-weekly:before {
+    content: "\59"
+}
+
+.icon-error:before {
+    content: "\5a"
+}
+
+.icon-successful:before {
+    content: "\30"
+}
+
+.icon-offnet-call-white-base:before {
+    content: "\31"
+}
+
+.icon-onnect-call:before {
+    content: "\32"
+}
+
+.icon-info:before {
+    content: "\33"
+}
+
+.icon-logout:before {
+    content: "\34"
+}
+
+.icon-sign-out:before {
+    content: "\36"
+}
+
+.icon-youtube-play:before {
+    content: "\35"
+}
+
+.icon-linkedin-square:before {
+    content: "\37"
+}
+
+.icon-clone:before {
+    content: "\38"
+}
+
+.icon-messenger:before {
+    content: "\39"
+}

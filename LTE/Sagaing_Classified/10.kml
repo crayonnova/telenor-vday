@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>10</name>
+  <Region>
+   <Lod>
+    <minLodPixels>1</minLodPixels>
+    <maxLodPixels>-1</maxLodPixels>
+   </Lod>
+   <LatLonAltBox>
+    <north>25.1734250882156</north>
+    <south>24.0516011528549</south>
+    <east>97.0706350339374</east>
+    <west>95.9488110985767</west>
+   </LatLonAltBox>
+  </Region>
+  <GroundOverlay>
+   <drawOrder>0</drawOrder>
+   <Icon>
+    <href>0\10.png</href>
+   </Icon>
+   <LatLonBox>
+    <north>25.1734250882156</north>
+    <south>24.0516011528549</south>
+    <east>97.0706350339374</east>
+    <west>95.9488110985767</west>
+   </LatLonBox>
+  </GroundOverlay>
+ </Document>
+</kml>
