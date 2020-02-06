@@ -11473,6 +11473,7 @@ button[data-active="true"] {
 .star-main-bg {
     background: linear-gradient(to bottom, rgba(88, 21, 90, 1) 1%, rgba(49, 20, 70, 1) 100%);
 }
+
 .star-bg-1 {
     background: #571e60 !important;
     border: 0 !important;
@@ -11745,10 +11746,58 @@ button[data-active="true"] {
     background-color: #EB344B;
 }
 
-
-
 .vday-spin-and-win{
     background: url(../../images/vday/spin-and-win-bg.png)100% center ;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.vday-flexible{
+    background: rgb(219,91,136) url('../../images/vday/flexible-bg.png');
+    background-repeat: no-repeat;
+    background-size: 80% ;
+    background-position: center;
+    /* background: -moz-linear-gradient(180deg, rgba(219,91,136,1) 0%, rgba(251,234,240,1) 100%) url('../../images/vday/flexible-bg.png');
+    background: -webkit-linear-gradient(180deg, rgba(219,91,136,1) 0%, rgba(251,234,240,1) 100%) url('../../images/vday/flexible-bg.png');
+    background: linear-gradient(180deg, rgba(219,91,136,1) 0%, rgba(251,234,240,1) 100%) url('../../images/vday/flexible-bg.png');
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#db5b88",endColorstr="#fbeaf0",GradientType=1) url('../../images/vday/flexible-bg.png'); */
+}
+
+/* shal suboo */
+
+.shal-suboo{
+    background: url(../../images/vday/shal-suboo-bg.png);
+}
+
+/* mytune */
+.mytune{ 
+    background: #E9344B url('../../images/vday/mytune-bg-img.png') no-repeat bottom right;
+    background-size: contain;
+    padding-top: 500px !important;
+}
+body > section.mytune.py-5 > div > div > div > p{
+    color: #fff;
+    font-size: 23px;
+}
+
+body > section.mytune.py-5 > div > div > div > img:nth-child(6),
+body > section.mytune.py-5 > div > div > div > img:nth-child(7),
+body > section.mytune.py-5 > div > div > div > img:nth-child(8){
+    width: 30%;
+}
+
+@media screen and (max-width: 1000px){
+    .mytune{
+        background-size: contain;
+        padding-top : 100px !important;
+        /* background: #E9344B none; */
+    }
+}
+@media screen and (max-width: 1000px){
+    .mytune{
+        background-size: contain;
+        padding-top : 100px !important;
+        background: #E9344B cover;
+        background-size: 40%;
+    }
 }
