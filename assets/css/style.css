@@ -11737,3 +11737,18 @@ button[data-active="true"] {
         position: relative;
     }
 }
+
+
+/* vday css */
+
+.vday-pic{
+    background-color: #EB344B;
+}
+
+
+
+.vday-spin-and-win{
+    background: url(../../images/vday/spin-and-win-bg.png)100% center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
